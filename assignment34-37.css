@@ -66,14 +66,13 @@ div::first-letter {
 } */
 
 /* assignment2 */
-p {
+/* p {
     width: 400px;
     padding: 15px ;
     background-color:#efefef ;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     border-left: 4px solid #eb1f63;
-    /* margin-left: 60px; */
     margin: 10px auto ;
 }
 p::before {
@@ -101,4 +100,26 @@ p::after {
     margin-top: -15px;
     background-color:#dedcdd ;
 
+} */
+
+/* assignment3 */
+p {
+    counter-increment: counter;
+    width: 400px;
+    padding: 15px ;
+    background-color:#efefef ;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    border-right: 4px solid #f54237;
+    margin: 10px auto ;
+}
+p::before {
+    content: counter(counter);
+    position:absolute;
+    padding: 15px ;
+    color: white;
+    background-color:#f54237 ;
+    top: 50%;
+    left: -38.91px;
+    margin-top: -24.285px;
 }
