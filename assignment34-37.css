@@ -64,3 +64,41 @@ div::first-letter {
     padding-top: 10px;
     color: white;
 } */
+
+/* assignment2 */
+p {
+    width: 400px;
+    padding: 15px ;
+    background-color:#efefef ;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    border-left: 4px solid #eb1f63;
+    /* margin-left: 60px; */
+    margin: 10px auto ;
+}
+p::before {
+    content: "";
+    position:absolute;
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: -26px;
+    margin-top: -12px;
+    border-width: 12px;
+    border-style: solid;
+    border-color:transparent #eb1f63 transparent transparent;
+}
+p::after {
+    content: attr(data-person);
+    position:absolute;
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: 65px;
+    height: 30px;
+    top: 50%;
+    text-align: center;
+    left: -90px;
+    margin-top: -15px;
+    background-color:#dedcdd ;
+
+}
