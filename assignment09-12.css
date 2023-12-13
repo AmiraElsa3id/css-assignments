@@ -1,0 +1,40 @@
+/*-----------------------------------------------*/
+/* assignmrnt 1*/
+/* div {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    outline: black solid 5px;
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.assign-1-shape-1 {
+    border:5px solid red  ;
+}
+.assign-1-shape-2 {
+    border: 5px solid;
+    border-color:blue green ;
+}
+.assign-1-shape-3 {
+    border: 5px dashed;
+    border-color:red green blue yellow ;
+} */
+/*-----------------------------------------------*/
+/* assignmrnt 2*/
+div {
+    padding: 10px 10px;
+    margin: 20px;
+    outline: #ededed solid 10px;
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.assign-1-shape-1 {
+    border-left:5px solid #ec1c64
+}
+.assign-1-shape-2 {
+    border: 5px solid;
+    visibility:hidden ;
+}
+.assign-1-shape-3 {
+    border-left:5px solid #0b8f8f ;
+} 

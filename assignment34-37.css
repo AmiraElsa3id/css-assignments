@@ -1,0 +1,66 @@
+/* assignment1 */
+/* body {
+    text-align: center;
+}
+div {
+    width: 300px;
+    height: 60px;
+    box-sizing:border-box;
+    margin:20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #eee;
+}
+div:empty{
+    background-color: red;
+} */
+
+/* assignment2 */
+div {
+    background-color: #d6d6d6;
+    text-align: center;
+    padding: 20px;
+    padding-left: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+}
+
+div::first-letter { 
+    background-color: #fc0200;
+    margin-left: -15px;
+    margin-right: 10px;
+    padding: 15px 10px;
+    color: white;
+}
+/* div::first-letter {
+    display:block;
+    position: absolute; 
+    background-color: #fc0200;
+    height: 40px;
+    width: 30px;
+    top: 50%;
+    left: -15px;
+    margin-top: -20px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    color: white;
+} */
+
+/* div::first-letter {
+    display: inline-block;
+    position: relative;
+    background-color: #fc0200;
+    height: 40px;
+    width: 30px;
+    top: 50%;
+    left: -15px;
+    margin-top: -20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: white;
+} */
