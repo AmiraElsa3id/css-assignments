@@ -82,9 +82,9 @@ p::before {
     width: 0px;
     height: 0px;
     top: 50%;
-    left: -26px;
-    margin-top: -12px;
-    border-width: 12px;
+    left: -23px;
+    margin-top: -11px;
+    border-width: 10px;
     border-style: solid;
     border-color:transparent #eb1f63 transparent transparent;
 }
